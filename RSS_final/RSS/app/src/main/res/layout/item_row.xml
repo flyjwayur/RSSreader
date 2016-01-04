@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    style="@style/AppTheme"
+    android:background="@color/primary_material_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemTitle"
+        android:text="here title"
+        android:typeface="serif"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="here Description"
+        android:id="@+id/itemDesc"
+        android:typeface="normal"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="here Link"
+        android:id="@+id/itemLink"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:typeface="monospace"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+</LinearLayout>

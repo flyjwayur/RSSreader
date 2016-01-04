@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\WONSEOB\AndroidStudioProjects\RSS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\WONSEOB\AndroidStudioProjects\RSS\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-bdee0ebfe04a46e7ceb1e2142a19b276ee8f244f.jar" />
+    </item>
+    <item
+        jar="C:\Users\WONSEOB\AndroidStudioProjects\RSS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\WONSEOB\AndroidStudioProjects\RSS\app\build\intermediates\pre-dexed\debug\classes-9097dda2e2c1534ad2240f1adc844c0349d92bde.jar" />
+    </item>
+    <item
+        jar="C:\Users\WONSEOB\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\WONSEOB\AndroidStudioProjects\RSS\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-3e15f3929ad98a53325e93866de2c28d033e854e.jar" />
+    </item>
+    <item
+        jar="C:\Users\WONSEOB\AndroidStudioProjects\RSS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\WONSEOB\AndroidStudioProjects\RSS\app\build\intermediates\pre-dexed\debug\classes-a8a72792948160f57660d05ba5a1bad7582c81d0.jar" />
+    </item>
+
+</items>

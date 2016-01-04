@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <!-- Search, should appear as action button -->
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_circle_outline_white_48dp"
+        android:orderInCategory="300"
+        android:title="Add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:title="About" />
+
+    <item
+        android:id="@+id/action_send"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:title="Send" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="Setting" />
+
+</menu>
